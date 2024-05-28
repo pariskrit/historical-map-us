@@ -1,0 +1,134 @@
+.popup {
+  display: none;
+  position: absolute;
+  width: 100%;
+  min-height: 140px;
+  height: 28%;
+  z-index: 100;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: #ffffff;
+  padding: 10px 0px;
+  font-family: var(--font-Montserrat-medium);
+}
+
+/* .popup > h2 {
+  text-align: center;
+  font-family: "Juana";
+  margin-bottom: 15px;
+} */
+
+.inside-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 12px 0;
+}
+
+.inside-popup>h2 {
+  font-family: var(--font-Lora-bold);
+  flex: 0.1;
+  text-align: center;
+}
+
+.popup_list {
+  text-align: center;
+  line-height: 24px;
+  flex: 0.5;
+}
+
+.popup_list_numbers {
+  font-family: var(--font-Montserrat-bold);
+}
+
+.popup_pointer {
+  display: none;
+}
+
+.popup_backarrow {
+  position: absolute;
+  top: 5px;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .popup {
+    position: absolute;
+    width: 309px;
+    top: 0px;
+    min-height: 105px;
+    bottom: auto;
+    padding: 24px 25px;
+  }
+
+  .popup_pointer {
+    position: absolute;
+    right: 156px;
+    top: -16px;
+    width: 0;
+    height: 0;
+    opacity: 0.9;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #ffffff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .popup {
+    position: absolute;
+    width: 309px;
+    top: 0px;
+    min-height: 105px;
+    height: auto;
+    bottom: auto;
+    padding: 22px 25px 21px;
+  }
+
+  .popup_pointer {
+    position: absolute;
+    right: 156px;
+    top: -16px;
+    width: 0;
+    height: 0;
+    opacity: 0.9;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #ffffff;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup {
+    height: unset;
+    padding: 24px 0 23px;
+    min-height: unset;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .popup_backarrow {
+    margin-left: 0;
+    left: 22px;
+    top: 16px;
+  }
+
+  .inside-popup {
+    padding: 0 62px;
+  }
+
+  .inside-popup>h2 {
+    margin: 0 0 4px;
+    font-size: 24px;
+    line-height: 1.33;
+  }
+
+  .inside-popup .popup_list p {
+    line-height: 1.75;
+    margin-top: -4px;
+  }
+}

@@ -1,0 +1,53 @@
+html {
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Montserra-semi-bold";
+  src: url("./assets/fonts/montserrat/Montserrat-SemiBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserra-bold";
+  src: url("./assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserra-medium";
+  src: url("./assets/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserratregular";
+  src: url("./assets/fonts/montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Lora-bold";
+  src: url("./assets/fonts/lora/Lora-Bold.ttf") format("truetype");
+}
+
+:root {
+  --font-Montserrat: "Montserratregular";
+  --font-Montserrat-bold: "Montserra-bold";
+  --font-Montserrat-semi-bold: "Montserra-semi-bold";
+  --font-Montserrat-medium: "Montserra-medium";
+  --font-Lora-bold: "Lora-bold";
+}

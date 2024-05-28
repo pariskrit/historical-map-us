@@ -1,0 +1,220 @@
+/* Mobile view */
+
+.timelinedata_container {
+  position: relative;
+  margin: 50px 0 50px 20px;
+  width: auto;
+  top: 0;
+  border: 30px solid #b8aea2;
+  padding: 30px 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #f9f7f3;
+}
+
+.timelinedata_goldenbox {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.timelinecontainer_heading1 {
+  font-size: 30px;
+  font-family: var(--font-Montserrat-semi-bold);
+  color: #181514;
+}
+
+.timelinecontainer_heading2 {
+  font-size: 76px;
+  font-family: var(--font-Lora-bold);
+  color: #181514;
+}
+
+.timelinecontainer_counts {
+  border: 3px solid #bb9040;
+  font-family: var(--font-Montserrat-medium);
+  font-size: 16px;
+  line-height: 28px;
+  margin: 15px auto 31px;
+  padding: 19px 10px 17px;
+  width: 84%;
+}
+
+.timelinecontainer_numbers {
+  font-family: var(--font-Montserrat-bold);
+}
+
+.timelinecontainer_description > h2 {
+  font-family: var(--font-Montserrat-semi-bold);
+  margin-bottom: 11px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.timelinecontainer_description > p {
+  font-family: var(--font-Montserrat);
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 367px;
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 252px;
+}
+
+/* Ipad View */
+@media (min-width: 567px) and (max-width: 991px) {
+  .timelinecontainer_counts {
+    width: 85%;
+  }
+
+  .timelinecontainer_description > h2 {
+    font-family: var(--font-Montserrat-semi-bold);
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  /* .timelinecontainer_description>p {
+    font-size: 14px;
+    line-height: 24px;
+  } */
+
+  .timelinecontainer_heading1 {
+    font-size: 30px;
+    font-family: var(--font-Montserrat-semi-bold);
+  }
+}
+
+/* Ipad Pro View */
+@media (min-width: 1181px) and (max-width: 1367px) {
+  .timelinedata_container {
+    left: 20px;
+    top: 50%;
+    margin: 50px 0 50px 20px;
+    width: 450px;
+  }
+
+  .timelinecontainer_counts {
+    max-width: 290px;
+  }
+}
+
+/* Ipad air View */
+@media (min-width: 992px) and (max-width: 1180px) {
+  .timelinedata_container {
+    left: 20px;
+    margin: 37px 0 40px 20px;
+    width: 484px;
+    padding: 38px 20px 48px;
+  }
+
+  .timelinecontainer_heading2 {
+    margin-top: -10px;
+  }
+
+  .timelinecontainer_description > h2 {
+    line-height: 28px;
+  }
+
+  .timelinecontainer_description > h2 {
+    line-height: 28px;
+    margin-bottom: 6px;
+  }
+
+  .timelinecontainer_description > p {
+    line-height: 24px;
+  }
+
+  .timelinecontainer_counts {
+    max-width: 290px;
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-bottom: 26px;
+    padding: 20px 10px 22px;
+  }
+
+  .timelinedata_goldenbox {
+    line-height: 26px;
+  }
+}
+
+/* Laptop View */
+@media (min-width: 1368px) {
+  .timelinedata_container {
+    left: 51px;
+    width: 548px;
+    padding: 47px 44px 62px 37px;
+  }
+
+  .timelinedata_container .timelinecontainer_heading1 {
+    margin-bottom: -3px;
+  }
+
+  .timelinecontainer_heading2 {
+    font-size: 76px;
+  }
+
+  .timelinedata_goldenbox {
+    font-size: 20px;
+  }
+
+  .timelinecontainer_description > h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .timelinecontainer_description > p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .timelinecontainer_counts {
+    width: 79.5%;
+  }
+}
+
+@media screen and (max-width: 1122px) {
+  .timelinedata_container {
+    width: 424px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .timelinedata_container {
+    margin: 37px 0 40px 20px;
+    padding: 30px 20px;
+    border: 20px solid #b8aea2;
+    width: 354px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timelinedata_container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-width: 30px;
+    padding: 38px 20px 48px;
+    margin: 0;
+  }
+  .timelinecontainer_counts {
+    padding: 21px 10px 21px;
+    margin: 15px auto 30px;
+  }
+  .timelinecontainer_heading2 {
+    font-size: 68px;
+    margin-top: -2px;
+  }
+  .timelinedata_goldenbox {
+    line-height: 1.444;
+  }
+  .timelinecontainer_description > p {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 450px) {
+  .timelinedata_container {
+    border-width: 20px;
+  }
+  .timelinecontainer_counts {
+    width: 90%;
+  }
+}

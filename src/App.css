@@ -1,0 +1,21 @@
+.app {
+  position: relative;
+  height: 100%;
+  padding-top: 46px;
+  background-color: #f9f7f3;  
+}
+
+.hover {
+  fill: #ffd404 !important;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 399px) {
+  .app {
+    padding-top: 26px;
+  }
+}

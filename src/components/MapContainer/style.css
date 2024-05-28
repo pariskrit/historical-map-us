@@ -1,0 +1,69 @@
+.mapcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../assets/images/Background-old-paper-small.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Surface Duo */
+@media only screen and (min-width: 540px) {
+  .mapcontainer {
+    overflow: hidden;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .mapcontainer {
+    background-image: url(../../assets/images/Background-old-paper-medium.jpg);
+  }
+}
+
+@media (min-width: 1400px) and (min-height: 1000px) {
+  .mapcontainer {
+    background-image: url(../../assets/images/Background-old-paper-medium.jpg);
+  }
+}
+
+@media (min-width: 1600px) {
+  .mapcontainer {
+    background-image: url(../../assets/images/Background-old-paper-large.jpg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mapcontainer {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+  .mapcontainer .react-transform-wrapper {
+    height: 636px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mapcontainer .react-transform-wrapper {
+    height: 536px !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .mapcontainer .react-transform-wrapper {
+    height: 406px !important;
+  }
+}
+@media screen and (max-width: 374px) {
+  .mapcontainer .react-transform-wrapper {
+    height: 376px !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .mapcontainer .react-transform-wrapper {
+    height: 336px !important;
+  }
+}
